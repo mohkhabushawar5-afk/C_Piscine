@@ -13,7 +13,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (start >= len1)
 		return (ft_strdup(""));
 	if (len > len1 - start)
-		len = len1  - start;
+		len = len1 - start;
 	s1 = malloc(len + 1);
 	if (!s1)
 		return (NULL);
